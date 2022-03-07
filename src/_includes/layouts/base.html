@@ -4,7 +4,6 @@
     {% include "basehead.html" %} {% block head %}{% endblock %}
   </head>
   <body>
-    {% include "hero.html" %}
-    {% include "features.html" %}
+    {{ content | safe }}
   </body>
 </html>
