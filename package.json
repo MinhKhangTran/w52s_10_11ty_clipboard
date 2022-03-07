@@ -11,6 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss-calc": "^8.2.4",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-each": "^1.1.0",
+    "postcss-nested": "^5.0.6"
   }
 }
