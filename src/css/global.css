@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
 /* ----------------------------- */
 /* Custom Properties             */
 /* ----------------------------- */
 :root {
   /* font-family */
-  --ff: 'Bai Jamjuree', sans-serif;
+  --ff: "Bai Jamjuree", sans-serif;
 
   /* colors */
   --strong-cyan: hsl(171, 66%, 44%);
@@ -14,8 +14,7 @@
   --grayish-blue: hsl(201, 11%, 66%);
   --strong-cyan-hover: hsl(170, 53%, 58%);
   --light-blue-hover: hsl(233, 100%, 77%);
-  --dark-grayish-blue-hover: hsl(220, 18%, 97%);
-
+  --footer: hsl(220, 18%, 97%);
 
   /* font-sizes */
   --h1: 2rem;
@@ -23,7 +22,6 @@
   --h3: 1.5rem;
   --body-lg: 1.25rem;
   --body: 1rem;
-
 }
 
 @media (min-width: 1110px) {
@@ -183,30 +181,21 @@ ul {
 }
 
 /* colors */
-.bg-primary {
-  background-color: var(--primary);
+.bg-footer {
+  background-color: var(--footer);
 }
-.bg-white {
-  background-color: white;
+.bg-strong-cyan {
+  background-color: var(--strong-cyan);
 }
-.bg-primary-light {
-  background-color: var(--primary-light);
-}
-.bg-gray {
-  background-color: var(--gray);
-}
-.bg-dark {
-  background-color: var(--dark);
-}
-.bg-light {
-  background-color: var(--light);
+.bg-light-blue {
+  background-color: var(--light-blue);
 }
 
-.text-dark {
-  color: var(--text-dark);
+.text-dark-grayish-blue {
+  color: var(--dark-grayish-blue);
 }
-.text-gray {
-  color: var(--text-gray);
+.text-grayish-blue {
+  color: var(--grayish-blue);
 }
 
 /* typography */
@@ -239,13 +228,34 @@ ul {
   font-size: var(--body-lg);
 }
 
-.h1,
-.h2,
-.h3,
-.h4 {
-  line-height: 1.1;
-}
 .text-center {
   text-align: center;
 }
 
+/* ----------------------------- */
+/* Hero                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Features                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Picture                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Benefits                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Social                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* CTA                         */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* Footer                         */
+/* ----------------------------- */
