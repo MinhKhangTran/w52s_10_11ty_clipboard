@@ -1,6 +1,36 @@
-<section aria-label="hero Section">
-  <h1 class="h1 text-dark-grayish-blue">A history of everything you copy</h1>
-  <a href="#">
+<section id="hero" class="" aria-label="hero Section">
+  <div class="hero_img_wrapper">
     <img src="/images/logo.svg" alt="home" />
-  </a>
+  </div>
+  <div class="container">
+    <h1 class="hero_title h1 text-dark-grayish-blue">
+      A history of everything you copy
+    </h1>
+    <p class="hero_subtitle body-lg">
+      Clipboard allows you to track and organize everything you copy. Instantly
+      access your clipboard on all your devices.
+    </p>
+    <div class="button_wrapper">
+      <button class="btn btn-primary">Download for iOS</button>
+      <button class="btn btn-secondary">Download for Mac</button>
+    </div>
+    <div class="hero_background">
+      <picture class="editor">
+        <source
+          media="(min-width: 420px)"
+          srcset="/images/bg-header-desktop.png"
+        />
+        <source
+          media="(max-width: 420px)"
+          srcset="/images/bg-header-mobile.png"
+        />
+        <img
+          srcset="/images/bg-header-desktop.png, /images/bg-header-mobile.png"
+          sizes="(min-width: 375px), (max-width: 375px)"
+          src="/images/bg-header-mobile.png"
+          alt=""
+        />
+      </picture>
+    </div>
+  </div>
 </section>

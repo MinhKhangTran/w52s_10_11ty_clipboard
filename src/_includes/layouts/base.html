@@ -4,6 +4,7 @@
     {% include "basehead.html" %} {% block head %}{% endblock %}
   </head>
   <body>
-    {{content|safe}}
+    <main>{{content|safe}}</main>
+    {% include "footer.html" %}
   </body>
 </html>
