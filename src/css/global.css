@@ -11,7 +11,7 @@
   --strong-cyan: hsl(171, 66%, 44%);
   --light-blue: hsl(233, 100%, 69%);
   --dark-grayish-blue: hsl(210, 10%, 33%);
-  --grayish-blue: hsl(201, 11%, 66%);
+  --grayish-blue: ##6c747a;
   --strong-cyan-hover: hsl(170, 53%, 58%);
   --light-blue-hover: hsl(233, 100%, 77%);
   --footer: hsl(220, 18%, 97%);
@@ -350,14 +350,14 @@ ul {
   }
 }
 .btn-primary {
-  background-color: var(--strong-cyan);
+  background-color: #187f70;
   box-shadow: 0px 3px 0px #1d907e;
 }
 .btn-primary:hover {
   background-color: var(--strong-cyan-hover);
 }
 .btn-secondary {
-  background-color: var(--light-blue);
+  background-color: #5767e5;
   box-shadow: 0px 3px 0px #2e46ff;
 }
 .btn-secondary:hover {
@@ -366,7 +366,71 @@ ul {
 /* ----------------------------- */
 /* Features                         */
 /* ----------------------------- */
+#features {
+  padding-top: 10.125rem;
+  text-align: center;
+  width: 90%;
+  margin-inline: auto;
+}
+.features_subtitle {
+  padding-block: 1rem 4.125rem;
+}
+.features_right-panel {
+  padding-top: 3.5rem;
+}
+.features_left-panel {
+  margin-inline: auto;
+}
+.features_left-panel img {
+  margin-inline: auto;
+}
+.features_right-panel p:nth-child(1),
+.features_right-panel p:nth-child(2) {
+  padding-bottom: 2.875rem;
+}
 
+@media (min-width: 1100px) {
+  #features {
+    padding-top: 9.5rem;
+    text-align: center;
+    width: auto;
+  }
+  .features_subtitle {
+    width: 750px;
+    margin-inline: auto;
+    padding-block: 1.25rem 0rem;
+  }
+  .features_article {
+    position: relative;
+    margin-top: 5rem;
+    height: 575px;
+  }
+  .features_left-panel {
+    position: absolute;
+    right: 50%;
+    width: 752px;
+    height: 572px;
+  }
+  .features_right-panel {
+    margin-left: 50%;
+    margin-right: 15%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    gap: 3.5rem;
+    padding-top: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .features_right-panel p {
+    width: 350px;
+  }
+  .features_right-panel p:nth-child(1),
+  .features_right-panel p:nth-child(2) {
+    padding-bottom: 0rem;
+  }
+}
 /* ----------------------------- */
 /* Picture                         */
 /* ----------------------------- */
