@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "icon": "google"
+  },
+  {
+    "id": 2,
+    "icon": "ibm"
+  },
+  {
+    "id": 3,
+    "icon": "microsoft"
+  },
+  {
+    "id": 4,
+    "icon": "hp"
+  },
+  {
+    "id": 5,
+    "icon": "vector-graphics"
+  }
+]

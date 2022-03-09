@@ -1,3 +1,21 @@
-<section aria-label="benefits Section">
-    <h2 class="h2">benefits Section</h1>
+<section id="benefits" class="container" aria-label="benefits Section">
+  <!-- <pre>{{ benefits | dump }}</pre> -->
+  <h2 class="h2 benefits_title text-center">Supercharge your workflow</h2>
+  <p class="body benefits_subtitle text-center">
+    We’ve got the tools to boost your productivity.
+  </p>
+  <div class="benefits_wrapper">
+    {% for benefit in benefits %}
+    <div class="benefit_wrapper">
+      <img
+        class="benefit_image_{{benefit.id}}"
+        src="/images/icon-{{benefit.icon}}.svg"
+        alt="{{benefit.title}}"
+        aria-hidden="true"
+      />
+      <h3 class="h3 benefit_title text-center">{{benefit.title}}</h3>
+      <p class="body-sm benefit_subtitle text-center">{{benefit.text}}</p>
+    </div>
+    {% endfor %}
+  </div>
 </section>

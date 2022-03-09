@@ -462,11 +462,72 @@ ul {
 /* ----------------------------- */
 /* Benefits                         */
 /* ----------------------------- */
+#benefits {
+  padding-top: 5.625rem;
+}
+.benefits_subtitle {
+  padding-block: 0.75rem 5.625rem;
+}
+.benefits_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.benefit_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.benefit_title {
+  padding-block: 2.5rem 1.125rem;
+}
+
+@media (min-width: 420px) {
+  #benefits {
+    padding-top: 4.4375rem;
+  }
+  .benefits_subtitle {
+    padding-block: 1.1875rem 4.5rem;
+  }
+  .benefits_wrapper {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+  .benefit_wrapper {
+    justify-content: flex-start;
+  }
+  .benefit_title {
+    padding-block: 2.5rem 1rem;
+  }
+  .benefit_subtitle {
+    width: 360px;
+  }
+}
 /* ----------------------------- */
 /* Social                         */
 /* ----------------------------- */
-
+#social {
+  padding-top: 8.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+#social img {
+  margin-inline: auto;
+}
+@media (min-width: 420px) {
+  #social {
+    padding-top: 9.875rem;
+    display: flex;
+    flex-direction: row;
+  }
+  #social img {
+    align-self: center;
+  }
+}
 /* ----------------------------- */
 /* CTA                         */
 /* ----------------------------- */

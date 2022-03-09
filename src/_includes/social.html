@@ -1,3 +1,5 @@
-<section aria-label="social Section">
-    <h2 class="h2">social Section</h1>
+<section id="social" class="container" aria-label="social Section">
+  {% for social in socials %}
+  <img src="/images/logo-{{social.icon}}.png" alt="{{social.icon}}" />
+  {% endfor %}
 </section>

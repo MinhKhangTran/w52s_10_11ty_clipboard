@@ -1,3 +1,5 @@
-<section aria-label="cta Section">
-    <h2 class="h2">cta Section</h1>
+<section id="cta" class="container" aria-label="cta Section">
+  {% for social in socials %}
+  <img src="/images/logo-{{social.icon}}.png" alt="{{social.icon}}" />
+  {% endfor %}
 </section>
