@@ -434,6 +434,30 @@ ul {
 /* ----------------------------- */
 /* Picture                         */
 /* ----------------------------- */
+#picture {
+  padding-top: 11.625rem;
+}
+.picture_subtitle {
+  padding-block: 1rem 3.75rem;
+}
+.picture_image {
+  margin-inline: auto;
+}
+.picture_subtitle {
+}
+@media (min-width: 420px) {
+  #picture {
+    padding-top: 9.375rem;
+  }
+  .picture_subtitle {
+    width: 740px;
+    margin-inline: auto;
+    padding-block: 1.125rem 6.25rem;
+  }
+  .picture_image {
+    margin-inline: auto;
+  }
+}
 
 /* ----------------------------- */
 /* Benefits                         */
