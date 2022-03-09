@@ -531,7 +531,113 @@ ul {
 /* ----------------------------- */
 /* CTA                         */
 /* ----------------------------- */
-
+#cta {
+  padding-top: 10.625rem;
+}
+.cta_subtitle {
+  padding-block: 1rem 2.8125rem;
+}
+@media (min-width: 420px) {
+  #cta {
+    padding-top: 9.875rem;
+  }
+  .cta_subtitle {
+    padding-block: 1.1875rem 3rem;
+    width: 740px;
+    margin-inline: auto;
+  }
+}
 /* ----------------------------- */
 /* Footer                         */
 /* ----------------------------- */
+footer {
+  margin-top: 10.75rem;
+  padding-block: 3.5rem;
+}
+.footer_link {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+  transition: all 0.35s ease-in;
+}
+.footer_link:hover {
+  color: var(--strong-cyan);
+}
+.footer_social {
+  text-decoration: none;
+}
+.footer_social svg path {
+  transition: all 0.35s ease-in;
+}
+.footer_social:hover svg path {
+  fill: var(--strong-cyan);
+}
+.footer_logo {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+.footer_socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding-top: 3rem;
+}
+
+@media (min-width: 420px) {
+  footer {
+    margin-top: 9.5rem;
+    padding-block: 2.5rem;
+  }
+  .footer_wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .footer_logo {
+    text-align: left;
+    padding-bottom: 0rem;
+  }
+  .footer_logo,
+  .footer_socials {
+    width: 16.667%;
+  }
+  .footer_socials {
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+    padding-top: 0rem;
+  }
+  .footer_links {
+    display: grid;
+    justify-content: normal;
+    width: 66.667%;
+    text-align: left;
+    grid-template-areas:
+      "faq private install"
+      "contact press .";
+    row-gap: 0.75rem;
+  }
+  .faq {
+    grid-area: faq;
+  }
+  .private {
+    grid-area: private;
+  }
+  .install {
+    grid-area: install;
+  }
+  .contact {
+    grid-area: contact;
+  }
+  .press {
+    grid-area: press;
+  }
+}
